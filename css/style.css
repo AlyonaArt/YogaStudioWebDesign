@@ -1,0 +1,466 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #fffff0;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: #fffff0;
+  border: 0;
+  border-radius: 0;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+#logo-img {
+  background: url("../img/namastelogo.png") no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 90px;
+  margin-top: 5px;
+}
+
+.navbar-brand h1 {
+  color: #ff640a;
+  font-weight: bold;
+  margin-top: 0px;
+  /*padding-left: 5px;*/
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.navbar-brand a:hover {
+  color: transparent;
+}
+
+.navbar-brand h2 {
+  color: #581f89;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  /*font-weight: bold;*/
+}
+
+#nav-list {
+  margin: 10px 0 10px 10px;
+}
+
+#nav-list a {
+  color: #581f89;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #ff640a;
+}
+
+#nav-list #phone a:hover {
+  background: none;
+}
+
+#nav-list a span {
+  font-size: 1.2em;
+  left: 2px;
+}
+
+#phone {
+  margin-top: 5px;
+}
+
+#phone a {
+  text-align: right;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+
+#phone div {
+  color: #ff640a;
+  text-align: right;
+  font-size: 0.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ff640a;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#collapsable-nav {
+  padding-right: 0;
+}
+
+#call-btn {
+  text-align: center;
+}
+
+#call-btn .btn {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #581f89;
+  border: 1px solid #581f89;
+  margin-top: 0;
+}
+
+#call-btn .glyphicon {
+  color: #ff640a;
+}
+
+#xs-tea {
+  color: #581f89;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+  background: url("../img/yoga-for-every-person.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#specials-tile {
+  background: url("../img/green-tea-alamy-large.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+  bottom: 0px;
+  position: absolute;
+  text-align: center;
+  text-transform: capitalize;
+  width: 100%;
+  font-size: 1.3em;
+  color: #ffffff;
+  background-color: #581f89;
+  opacity: .8;
+}
+
+/*END HEADER*/
+.panel-footer {
+  margin-top: 30px;
+  color: #ffffff;
+  background-color: #581f89;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  font-size: .9em;
+  line-height: 2;
+}
+
+#adress span, #hours span {
+  color: #fffff0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#adress, #hours {
+  color: #fffff0;
+}
+
+#testimonials {
+  font-style: italic;
+  line-height: 1.5;
+}
+
+#testimonials p:nth-child(2) {
+  margin-top: 20px;
+}
+
+#classes, #masters {
+  font-weight: bold;
+  color: #ff640a;
+  margin: 0px 15px 0 15px;
+}
+
+/*Classes&Schedule*/
+.classes-tile {
+  position: relative;
+  overflow: hidden;
+  margin: 0px 0 40px 10px;
+  padding-bottom: 5px;
+  width: 350px;
+  height: 300px;
+}
+
+hr.classes-line {
+  margin: 10px 10px 20px 10px;
+  border-top: 1px solid #581f89;
+}
+
+.classes-tile span {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: lowercase;
+  background-color: #ff640a;
+  color: #ffffff;
+  opacity: .8;
+  bottom: 0;
+  right: 0;
+}
+
+.classes-tile span:hover {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: lowercase;
+  background-color: #581f89;
+  color: #ffffff;
+  opacity: .8;
+  bottom: 0;
+  right: 0;
+}
+
+.classes-tile:hover {
+  box-shadow: 0 1px 5px 1px #9d9d9d;
+}
+
+/***Large devices only****/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url("../img/img-yoga.jpg") no-repeat;
+    height: 400px;
+    box-shadow: 0 0 15px grey;
+    background-size: cover;
+  }
+
+  hr.classes-line {
+    margin: 10px 0px 20px 10px;
+  }
+}
+
+/*-SINGLE-*/
+
+.teachers {
+  margin-bottom: 30px;
+}
+
+#masters {
+  font-weight: bold;
+  color: #ff640a;
+  margin: 10px auto;
+}
+
+hr.master-line {
+  margin: 10px 10px 10px 10px;
+  border-top: 1px solid #581f89;
+}
+
+#smalltext {
+  margin-bottom: 35px;
+  font-size: 0.9em;
+  color: #581f89;
+  font-weight: bold;
+}
+
+.teachers h4 {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #ff640a;
+  font-weight: bold;
+}
+
+.teachers hr {
+  width: 80%;
+  border-top: 1px solid #581f89;
+}
+
+.teachers .teacher-price {
+  margin-right: -10px;
+  text-align: right;
+  color: #ff640a;
+  font-weight: bold;
+}
+
+.teachers .teacher-price span {
+  margin-left: 5px;
+  text-align: right;
+  color: #581f89;
+  font-weight: bold;
+}
+
+.teacher-photo {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 10px;
+  width: 220px;
+  height: 300px;
+}
+
+.teacher-photo img {
+  width: 100%;
+}
+
+.teacher-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #ff640a;
+  text-align: center;
+  opacity: 0.7;
+  width: 50px;
+  height: 30px;
+  color: white;
+}
+
+.classes-detail {
+  font-size: 0.9em;
+  /*color: #581f89;*/
+  /*font-weight: bold;*/
+}
+
+.classes-tile img {
+  width: 100%;
+}
+
+/***Medium devices only****/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .container .jumbotron {
+    background: url("../img/yoga992.jpg") no-repeat;
+    height: 558px;
+    box-shadow: 0 0 15px grey;
+    background-size: cover;
+  }
+
+  .classes-tile {
+    width: 285px;
+    margin: 0px 5px 20px 5px;
+  }
+
+}
+
+/***Small devices only****/
+@media (min-width: 768px) and (max-width: 992px) {
+
+  .container .jumbotron {
+    background: url("../img/yoga768.jpg") no-repeat;
+    height: 432px;
+    box-shadow: 0 0 15px grey;
+    background-size: cover;
+  }
+
+  .col-ssm-6 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 50%
+  }
+
+  .classes-tile {
+    width: 325px;
+    margin: 0px 10px 20px 10px;;
+  }
+
+  #nav-list {
+    margin: 12px 0 0 0;
+  }
+}
+
+/***ExtraSmall devices only****/
+@media (max-width: 767px) {
+
+  .navbar-brand h1 {
+    margin-bottom: 0px;
+    font-size: 27px;
+    float: left;
+  }
+
+  .navbar-brand h2 {
+    padding: 7px 0 10px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    padding: 15px 0px 15px 15px;
+  }
+
+  #collapsable-nav a {
+    font-size: 1.1em;
+  }
+
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  .container .jumbotron {
+    margin-top: 20px;
+    padding: 0;
+    box-shadow: 0 0 15px grey;
+  }
+
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0px auto 15px;
+  }
+
+  .classes-tile {
+    margin: 20px auto;
+  }
+
+  .panel-footer section {
+    text-align: center;
+  }
+
+  .teacher-photo {
+    margin-right: auto;
+  }
+
+  .teachers .teacher-price {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .teachers h4 {
+    text-align: center;
+  }
+
+}
+
+/**Supersmal**/
+@media (max-width: 479px) {
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0px auto 15px;
+  }
+
+  .classes-tile {
+    width: 280px;
+  }
+
+  .panel-footer section {
+    text-align: center;
+  }
+}
+
+    
+  
