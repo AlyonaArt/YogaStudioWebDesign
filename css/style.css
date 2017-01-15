@@ -154,6 +154,42 @@ body {
   opacity: .8;
 }
 
+/*Contact us*/
+.contactpic img {
+  height: 590px;
+  width: 560px;
+}
+
+.contact h2 {
+  color: #ff640a;
+  font-weight: bold;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.contact p {
+  line-height: 1.7;
+}
+
+.contact h4 {
+  color: #581f89;
+  font-weight: bold;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.glyphicon {
+  position: inherit;
+  top: inherit;
+}
+
+.comment {
+  font-weight: 500;
+  margin-top: 20px;
+}
+
 /*END HEADER*/
 .panel-footer {
   margin-top: 30px;
@@ -233,20 +269,6 @@ hr.classes-line {
 
 .classes-tile:hover {
   box-shadow: 0 1px 5px 1px #9d9d9d;
-}
-
-/***Large devices only****/
-@media (min-width: 1200px) {
-  .container .jumbotron {
-    background: url("../img/img-yoga.jpg") no-repeat;
-    height: 400px;
-    box-shadow: 0 0 15px grey;
-    background-size: cover;
-  }
-
-  hr.classes-line {
-    margin: 10px 0px 20px 10px;
-  }
 }
 
 /*-SINGLE-*/
@@ -337,6 +359,25 @@ hr.master-line {
   width: 100%;
 }
 
+.contactpic img {
+  width: 100%;
+  height: auto;
+}
+
+/***Large devices only****/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url("../img/img-yoga.jpg") no-repeat;
+    height: 400px;
+    box-shadow: 0 0 15px grey;
+    background-size: cover;
+  }
+
+  hr.classes-line {
+    margin: 10px 0px 20px 10px;
+  }
+}
+
 /***Medium devices only****/
 @media (min-width: 992px) and (max-width: 1199px) {
 
@@ -352,6 +393,19 @@ hr.master-line {
     margin: 0px 5px 20px 5px;
   }
 
+  .teacher-photo {
+    height: 300px;
+    width: 100%;
+  }
+
+  .teacher-photo img {
+    height: 100%;
+    width: auto;
+  }
+
+  .teacher-price {
+    margin-left: 7px;
+  }
 }
 
 /***Small devices only****/
@@ -380,6 +434,14 @@ hr.master-line {
 
   #nav-list {
     margin: 12px 0 0 0;
+  }
+
+  .contactpic {
+    margin-bottom: 20px;
+  }
+
+  .contact h2 {
+    text-align: center;
   }
 }
 
@@ -444,6 +506,10 @@ hr.master-line {
     text-align: center;
   }
 
+  .contactpic {
+    margin-bottom: 15px;
+  }
+
 }
 
 /**Supersmal**/
@@ -460,6 +526,19 @@ hr.master-line {
   .panel-footer section {
     text-align: center;
   }
+
+  .col-ssm-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 100%
+  }
+
+  .contactpic {
+    margin-bottom: 10px;
+  }
+
 }
 
     
